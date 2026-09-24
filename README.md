@@ -32,6 +32,12 @@ npm run preview
 
 The static output is written to `dist/` and can be hosted by any static web server.
 
+## Deploy to GitHub Pages
+
+Push the repository to the `main` branch. The `Deploy to GitHub Pages` workflow builds and publishes the site automatically.
+
+For the first deployment, open **Settings > Pages** in the GitHub repository and set **Source** to **GitHub Actions**. The deployed site will be available at <https://raghav-wd.github.io/evidence-lab-manual/>.
+
 ## Project structure
 
 ```text
